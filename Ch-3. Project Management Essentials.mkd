@@ -5,3 +5,11 @@ Algunos riesgos a tener en cuenta incluyen los siguientes:
 No pospongas dar malas noticias.
 - **La tasa de defectos es excesiva**:
 En cualquier caso, si experimenta una alta tasa de defectos, lo mejor que puede hacer es detenerse, echar un vistazo y encontrar la causa raíz de los defectos antes de agregar más funcionalidad. Esto puede ser muy difícil de hacer desde el punto de vista de la gestión de proyectos, pero al final te lo agradecerás.
+- **Malentendido en los requisitos**:
+La mejor manera de evitar esta situación es tener al cliente en el sitio con la mayor frecuencia posible y producir productos entregables con la mayor frecuencia posible.
+- **Rotación de requisitos:**
+En los procesos ágiles, el equipo de desarrollo mantiene el control de la lista de requisitos priorizados (llamada backlog del producto en Scrum) y solo ajusta la lista en puntos establecidos del proyecto, después de las iteraciones en XP y después de cada sprint en Scrum.
+- **Rotacion de Personal**
+La mejor manera de reducir la rotación es (1) dar a sus desarrolladores un trabajo interesante, (2) hacer que trabajen en un ambiente agradable y (3) darles control sobre sus propios horarios. Por extraño que parezca, el dinero no es uno de los principales motivadores para los desarrolladores de software. Esto no significa que no quieran que les paguen bien, pero sí significa que tirarles más dinero para que trabajen más duro o para evitar que se vayan generalmente no funciona. La mejor manera de mitigar el efecto de la rotación es difundir el conocimiento del proyecto entre todos los miembros del equipo de desarrollo. Principios como la propiedad común del código y técnicas como la programación en pares funcionan para involucrar a todos los miembros del equipo en el producto y difundir el conocimiento del código a todo el equipo. Uno de los mejores libros sobre la gestión y el mantenimiento de desarrolladores de software es Peopleware de Tom DeMarco.2
+
+Una vez que tengas una lista de los riesgos para tu proyecto
