@@ -1,1 +1,7 @@
 ## Análisis del riesgo
+
+Algunos riesgos a tener en cuenta incluyen los siguientes:
+- **Errores de programación**:
+No pospongas dar malas noticias.
+- **La tasa de defectos es excesiva**:
+En cualquier caso, si experimenta una alta tasa de defectos, lo mejor que puede hacer es detenerse, echar un vistazo y encontrar la causa raíz de los defectos antes de agregar más funcionalidad. Esto puede ser muy difícil de hacer desde el punto de vista de la gestión de proyectos, pero al final te lo agradecerás.
