@@ -19,3 +19,7 @@ Una vez que tengas una lista de los riesgos para tu proyecto, debes abordar cada
 
 # Estimaciones de tareas
 
+Tienes que dividir tu trabajo en tareas que no duren más de una semana. Uno o dos días es una apuesta mucho mejor. Mejor aún, nunca haga estimaciones en ninguna unidad excepto en horas-persona. De esa manera, se sentirá más tentado a trabajar con pequeños incrementos de horas y dividirá sus tareas más importantes en otras más pequeñas que quizás sepa cómo hacer. Una vez que tenga una lista creíble de tareas, puede comenzar a hacer una estimación del tamaño y luego del esfuerzo. El tamaño siempre tiene que ser lo primero, porque no puedes calcular cuánto tiempo tomará algo hasta que tengas una idea de qué tan grande es.
+
+
+
