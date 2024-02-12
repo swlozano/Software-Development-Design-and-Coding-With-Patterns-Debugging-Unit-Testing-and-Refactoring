@@ -19,7 +19,32 @@ Una vez que tengas una lista de los riesgos para tu proyecto, debes abordar cada
 
 # Estimaciones de tareas
 
-Tienes que dividir tu trabajo en tareas que no duren más de una semana. Uno o dos días es una apuesta mucho mejor. Mejor aún, nunca haga estimaciones en ninguna unidad excepto en horas-persona. De esa manera, se sentirá más tentado a trabajar con pequeños incrementos de horas y dividirá sus tareas más importantes en otras más pequeñas que quizás sepa cómo hacer. Una vez que tenga una lista creíble de tareas, puede comenzar a hacer una estimación del tamaño y luego del esfuerzo. El tamaño siempre tiene que ser lo primero, porque no puedes calcular cuánto tiempo tomará algo hasta que tengas una idea de qué tan grande es.
+Tienes que dividir tu trabajo en tareas que no duren más de una semana. Uno o dos días es una apuesta mucho mejor. Mejor aún, nunca haga estimaciones en ninguna unidad excepto en horas-persona.  Una vez que tenga una lista creíble de tareas, puede comenzar a hacer una estimación del tamaño y luego del esfuerzo. El tamaño siempre tiene que ser lo primero, porque no puedes calcular cuánto tiempo tomará algo hasta que tengas una idea de qué tan grande es.
+
+Terminará con estimaciones en términos de KLOC: miles de líneas de código sin comentar. Existen varias técnicas para obtener estimaciones de esfuerzo: COCOMO II,3 análisis de puntos de función y el método Delphi.  El mantra de la estimación es: primero el tamaño, luego las estimaciones de esfuerzo y costos, y finalmente el cronograma. 
+
+El método Delphi es una técnica de estimación rápida y relativamente eficiente.
+Encuentre a tres de sus desarrolladores más experimentados. Estas son las personas que tienen más experiencia. 
+Luego, proporciónales el desglose de la tarea (suponiendo que no hayan participado ya en el desglose inicial: la situación ideal). Luego pídales que le den tres números para cada tarea: la cantidad de tiempo más corta que debería tomar, la cantidad de tiempo más larga que debería tomar y la cantidad de tiempo “normal” que debería tomar, todo en horas-persona. Una vez que tengas estos números, súmalos todos, los más cortos juntos, los más largos juntos y los “normales” juntos y toma la media. Esas son sus estimaciones para cada tarea: los promedios de las mejores estimaciones realizadas por sus mejores desarrolladores para cada tarea. Luego, utiliza esos valores promedio para cada tarea como la estimación oficial (por ahora) del esfuerzo y procede a crear un cronograma. Finalmente, debe Haga que las personas adecuadas (los desarrolladores que harán el trabajo) hagan todas las estimaciones del proyecto. Los gerentes nunca deberían hacer estimaciones de desarrollo. Incluso si un gerente ha sido desarrollador en el pasado, a menos que esté profundamente involucrado en el trabajo de desarrollo real, no debería estar en el negocio de hacer estimaciones de desarrollo.
+
+## cronograma del proyecto
+
+- Algunas tareas deben iniciar antes que otras.
+- Descubra cuál es su ciclo de trabajo. De cada jornada de ocho horas, ¿cuántas horas dedican realmente sus desarrolladores al desarrollo? Debe recordar que leer el correo, asistir a reuniones, revisar códigos, tomar descansos, ir al baño y almorzar consumen tiempo. No se puede dar por sentado que una tarea de ocho horas se realizará en un solo día. Siendo realistas, de cada día de ocho horas, de dos a cuatro horas se consumen con otras cosas, por lo que su ciclo de trabajo puede ser tan bajo como el 50%. cuatro horas al día. Los ciclos de trabajo también pueden variar según la cultura corporativa, por lo que debes averiguar cuál es el tuyo antes de comenzar a programar.
+- Tenga en cuenta los fines de semana, las vacaciones, los días de enfermedad, el entrenamiento y el tiempo libre cuando haga el cronograma. Si su desarrollador senior tiene una tarea en la ruta crítica de su proyecto, probablemente necesite saber que se tomará esas vacaciones de tres semanas en mayo.
+- No puedes programar a un desarrollador para que trabaje en dos tareas al mismo tiempo.
+
+utilice un software de programación de proyectos para elaborar su cronograma. 
+Pero el uso de software de gestión de proyectos real como:
+- Microsoft Project,
+- Fast Track Scheduling,
+- Basecamp
+- o Merlin para proyectos basados en planes
+- y aplicaciones web como Jira, Pivotal Tracker
+- o proyectos ágiles de Trello
+
+  
+
 
 
 
