@@ -1,1 +1,31 @@
 # Requerimientos
+
+Antes de iniciar con el tema de programar es necesario contar con los requerimientos bien especificados, que nos dira que es lo que nuestro programa debe hacer.
+
+## ¿De qué tipos de requisitos estamos hablando?
+Realmente estamos hablando de requisitos funcionales, la lista de características que el usuario verá y podrá usar cuando inicie su programa. En lo que respecta al usuario, estos son los únicos requisitos que importan. Para un proceso ágil, el resultado es un conjunto de historias de usuarios que definen el trabajo pendiente del producto.
+Durante el proceso de descubrir los requisitos para su proyecto, normalmente verá cuatro tipos diferentes: requisitos de usuario, requisitos de dominio, requisitos no funcionales y no requisitos.
+
+### Requisitos de usuario
+Los requisitos del usuario casi siempre se expresan en lenguaje natural. Son los detalles de lo que el usuario espera ver mientras usa el programa. También incluyen descripciones de diseños de pantalla, cuadros de diálogo y menús. Cualquier elemento de interacción en el programa debe describirse en los requisitos del usuario. Por ejemplo:
+
+Iniciar sesión en el sistema: cuando Gloria hace clic en el botón Iniciar sesión en la página principal, aparece un cuadro de diálogo Iniciar sesión en el medio de la pantalla. El cuadro de diálogo de inicio de sesión debe contener dos cuadros de texto, denominados "Nombre de usuario" y "Contraseña". También debe haber dos botones en el cuadro de diálogo, denominados "Enviar" y "Cancelar". Si en algún momento Gloria hace clic en el botón Cancelar, el cuadro de diálogo desaparecerá y volverá a la pantalla anterior.........
+
+Usar maquetas o elemetos graficos que ayuden a la descripcion. 
+
+### Requisitos de dominio
+
+Estos son requisitos que le impone el dominio de aplicación del programa. Si está escribiendo una nueva versión de un programa de impuestos sobre la renta, estará limitado por las últimas regulaciones del IRS. Un programa de libro mayor deberá cumplir con la última edición de los Principios de Contabilidad Generalmente Aceptados (GAAP), y un teléfono inteligente deberá implementar los últimos protocolos del Sistema Global para Comunicaciones Móviles (GSM). 
+
+No es necesario que anotes todos estos requisitos, simplemente consúltalos. 
+
+Un conjunto de requisitos de dominio detallados brinda a los desarrolladores la información que necesitarán durante el diseño del programa. 
+
+**Los requisitos de dominio generalmente se consideran software de “capa intermedia” porque son el corazón de la aplicación, debajo de la interfaz de usuario y encima del sistema operativo, la red o el software de base de datos.**
+
+Muchos requisitos de dominio se implementarán como clases y bibliotecas independientes con sus propias API. Los usuarios se preocupan por los requisitos del dominio sólo en la medida en que afecten a los requisitos del usuario.
+
+### Requerimientos no funcionales
+Los requisitos no funcionales son limitaciones de los servicios y funciones del programa y también expectativas sobre el desempeño. Pueden incluir especificaciones de la plataforma de destino, restricciones de tiempo, requisitos de rendimiento, requisitos de uso de memoria, privilegios de acceso a archivos, requisitos de seguridad, tiempos de respuesta, número mínimo de transacciones por segundo, etc. Por lo general, estos son requisitos que pueden no ser visibles para el usuario, pero que sí afectan la experiencia del usuario. Un ejemplo de este tipo de requisito es que su página web debe cargarse y mostrarse en tres segundos.
+
+Es necesario decirles a todas las partes interesadas en un proyecto lo que el programa va a hacer y también lo que no va a hacer. En particular, debe informarles que hay requisitos que no se implementarán, al menos no en la versión actual.
