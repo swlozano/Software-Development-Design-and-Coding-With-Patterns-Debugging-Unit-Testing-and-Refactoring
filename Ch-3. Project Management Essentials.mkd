@@ -1,3 +1,5 @@
+# Conceptos básicos de la gestión de proyectos
+
 ## Análisis del riesgo
 
 Algunos riesgos a tener en cuenta incluyen los siguientes:
@@ -44,7 +46,55 @@ Pero el uso de software de gestión de proyectos real como:
 - o proyectos ágiles de Trello
 
   
+El sencillo cronograma de Spolsky enumera las siguientes siete columnas que deberían estar en todo cronograma:
+• Nombre de la función
+• Tareas dentro de la función
+• La prioridad de la tarea
+• La estimación original (en horas-persona)
+• La estimación actual (en horas-persona)
+• El tiempo transcurrido trabajado en la tarea (en horas-persona)
+• El tiempo restante de la tarea (también en horas-persona)
 
+## Velocidad
+
+La velocidad es un término de XP6 y se define como el esfuerzo estimado de una tarea, dividido por el esfuerzo real.
+
+la velocidad da al desarrollador y al gerente del proyecto una idea de cuán precisas son las estimaciones del desarrollador y ayudar a realizar un mejor trabajo de estimación la próxima vez. Idealmente, a medida que un desarrollador gane experiencia, su velocidad se acercará a 1,0 en cada tarea.
+
+## Supersvision del proyecto
+
+Supervisión del proyecto implica reuniones de revisión para arquitectura, diseño y código. 
+La gestión del trabajo, cronograma, desarrolladores y proceso es crucial. La técnica del gerente, apoyo y motivación son fundamentales. La gestión creativa y solidaria es esencial; tratar a los desarrolladores como humanos y mantener un equipo feliz es prioritario. Los proyectos son eventos sociales cooperativos.
+
+# Revisiones y estados del proyecto
+La honestidad al informar sobre problemas y el manejo eficiente de malas noticias son clave para la gestión de proyectos.
+
+## Defectos
+
+Como desarrollador, tu objetivo es doble:
+
+- Introduzca la menor cantidad de defectos posible en el código que escriba.
+- Encuentra tantos como puedas antes de publicar el código.
+
+### Gravedad de defectos
+
+1. Fatal: Este defecto hace que el producto falle o una funcionalidad fundamental no funciona (por ejemplo, no puede guardar archivos en su nuevo procesador de textos).
+2. Grave: una parte importante de la funcionalidad no funciona y no existe ninguna solución alternativa que el usuario pueda realizar (como Cortar y Pegar no funciona en absoluto).
+3. Serio: una funcionalidad no funciona, pero existe una solución alternativa que el cliente puede realizar (por ejemplo, los atajos de teclado para Cortar y Pegar no funcionan, pero los menús desplegables sí).
+4. Molesto: hay un defecto o error menor en la documentación que puede molestar al usuario, pero que no afecta el funcionamiento del programa (por ejemplo, Pegar siempre se escribe Patse).
+5. Solicitud de nueva función: esto no es un defecto, sino una solicitud para que el producto haga algo nuevo (por ejemplo, el procesador de textos debe tener una función de voz a texto incorporada).
+
+## La retrospectiva
+La mayoría de los equipos de desarrollo harán una retrospectiva después de cada proyecto. 
+Una retrospectiva, es una oportunidad para reflexionar sobre el proyecto recién completado y responder algunas preguntas. Normalmente, las preguntas serán como las siguientes:
+
+- ¿Qué salió bien? ¿Nuestro proceso funcionó de la manera que anticipamos? ¿Cumplimos con nuestro horario? ¿Implementamos todas las características requeridas por el cliente?
+- ¿Qué salió mal? ¿Por qué teníamos tantos defectos? ¿Por qué tuvimos que trabajar 60 horas a la semana durante el último mes del proyecto?
+- ¿Qué problemas de proceso surgieron? ¿Seguimos nuestro proceso? Si no, ¿qué partes fueron problemáticas?
+- ¿Qué necesitamos arreglar para la próxima vez? Dadas las respuestas a las preguntas anteriores, ¿qué necesitamos arreglar en nuestro proceso, hábitos de trabajo o entorno para el próximo proyecto?
+- ¿Quién es responsable de las correcciones? Alguien tiene que ser responsable de los cambios en nuestro proceso: ¿quién es? (No lo convierta en un administrador; el equipo de desarrollo debe ser dueño del proceso).
+
+En un proyecto basado en un plan, la retrospectiva normalmente se lleva a cabo después del lanzamiento del producto o después de cada iteración importante del producto. En un proyecto ágil, siempre se realiza una retrospectiva después de cada iteración. Así, por ejemplo, en Scrum se realiza una retrospectiva después de cada sprint.
 
 
 
