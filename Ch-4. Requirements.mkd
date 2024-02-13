@@ -29,3 +29,19 @@ Muchos requisitos de dominio se implementarán como clases y bibliotecas indepen
 Los requisitos no funcionales son limitaciones de los servicios y funciones del programa y también expectativas sobre el desempeño. Pueden incluir especificaciones de la plataforma de destino, restricciones de tiempo, requisitos de rendimiento, requisitos de uso de memoria, privilegios de acceso a archivos, requisitos de seguridad, tiempos de respuesta, número mínimo de transacciones por segundo, etc. Por lo general, estos son requisitos que pueden no ser visibles para el usuario, pero que sí afectan la experiencia del usuario. Un ejemplo de este tipo de requisito es que su página web debe cargarse y mostrarse en tres segundos.
 
 Es necesario decirles a todas las partes interesadas en un proyecto lo que el programa va a hacer y también lo que no va a hacer. En particular, debe informarles que hay requisitos que no se implementarán, al menos no en la versión actual.
+
+## Recopilación de requisitos en un proyecto basado en un plan
+
+La parte importante y la idea detrás de todo este capítulo es escribir lo que se supone que debe hacer su programa antes de comenzar a codificar.
+
+**¡Pero no me gusta escribir!**
+
+Los requisitos funcionales siempre deben escribirse en un lenguaje natural. 
+El lenguaje no sólo determina lo que dices, sino que determina lo que puedes decir (y pensar). Es decir, el lenguaje que utilizas determina qué tipo de pensamientos eres capaz de tener; tiende a limitar tus procesos de pensamiento y, por lo tanto, en qué puedes pensar y cómo expresar tus pensamientos.
+
+**Esquema de una especificación funcional**
+Cada especificación de función debe tener los elementos discutidos en las siguientes secciones.
+
+### Descripción general(Overview)
+
+
