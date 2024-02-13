@@ -1,5 +1,51 @@
 # Conceptos básicos de la gestión de proyectos
 
+En un proyecto ágil, todo el equipo suele ser responsable de gestionar el proyecto. Si hay un director de proyecto independiente, esa persona es en gran medida responsable de lo siguiente:
+
+• Asegurarse de que el equipo tenga los recursos que necesita.
+• Asegurar que el equipo se adhiera a los valores y principios ágiles
+• Facilitar las comunicaciones
+• Proteger al equipo de interrupciones externas
+
+En particular, el director de proyectos ágil no gestiona las operaciones diarias del equipo. Eso depende del propio equipo. El objetivo es garantizar que no haya retrasos en la toma de decisiones de gestión.
+
+## Project planning
+
+Planificación de proyectos
+“El Plan” nunca está realmente escrito en piedra, porque las cosas en un proyecto de software típico suelen estar en constante cambio. 
+
+Un plan de proyecto consta de las siguientes siete partes:
+
+• Introducción y explicación del proyecto.
+• Organización del equipo
+• Análisis de riesgo
+• Requisitos de hardware, software y recursos humanos.
+• Lista de tareas y estimaciones de tamaño y esfuerzo.
+• Cronograma del proyecto
+• Mecanismos de seguimiento y presentación de informes del proyecto, conocidos colectivamente como supervisión del proyecto.
+
+No todos estos son necesarios para todos los proyectos o metodologías de proyectos. En particular, los proyectos basados en planes los utilizarán todos, mientras que los proyectos ágiles pueden utilizar algunos en una sola página.
+Un plan de proyecto ágil:
+
+• se basa en funciones(feature) (recuerde que se basa en lograr que el código de producción se ejecute rápidamente).
+• está organizado en iteraciones.
+• tiene múltiples niveles (porque sabe que las cosas cambiarán y que el conjunto inicial de requisitos no es lo suficientemente completo o detallado).
+• es propiedad del equipo, no del director del proyecto.
+
+## Organizacion del proyecto
+
+La sección de organización del proyecto del plan contiene las siguientes tres cosas:
+• Cómo vas a organizar el equipo
+• Qué modelo de proceso utilizará el proyecto.
+• ¿Cómo se ejecutará el proyecto en el día a día?
+
+Esta sección es una necesidad para proyectos nuevos y equipos sin experiencia, porque la sección de organización le brinda algo en qué colgarse cuando comienza el trabajo del proyecto real.
+
+Los proyectos ágiles simplifican los tres elementos que acabamos de mencionar. Casi todos los equipos ágiles se autoorganizan. **Uno de los principios ágiles es la idea de propiedad común del código, los desarrolladores ágiles no se segregan en función de la parte del código en la que están trabajando o de un conjunto de habilidades en particular. Los desarrolladores ágiles comparten código, pruebas y experiencia. Como todos los desarrolladores de software, quienes trabajan en un proyecto ágil aprenden constantemente cosas nuevas y mejoran sus habilidades.**
+
+Todos los proyectos ágiles son iterativos, utilizan ciclos de desarrollo cortos y producen código en ejecución con más funciones al final de cada iteración.
+Los diferentes proyectos ágiles se ejecutarán de manera diferente en el día a día. Pero casi todos incluyen reuniones diarias, al menos integraciones diarias y alguna forma de programación compartida (por ejemplo, programación en pareja). Ya sea que el proyecto utilice una metodología de tiempo limitado o no, las iteraciones suelen ser cortas y los desarrolladores dedican bastante tiempo a escribir y ejecutar pruebas unitarias.
+
 ## Análisis del riesgo
 
 Algunos riesgos a tener en cuenta incluyen los siguientes:
@@ -95,6 +141,7 @@ Una retrospectiva, es una oportunidad para reflexionar sobre el proyecto recién
 - ¿Quién es responsable de las correcciones? Alguien tiene que ser responsable de los cambios en nuestro proceso: ¿quién es? (No lo convierta en un administrador; el equipo de desarrollo debe ser dueño del proceso).
 
 En un proyecto basado en un plan, la retrospectiva normalmente se lleva a cabo después del lanzamiento del producto o después de cada iteración importante del producto. En un proyecto ágil, siempre se realiza una retrospectiva después de cada iteración. Así, por ejemplo, en Scrum se realiza una retrospectiva después de cada sprint.
+
 
 
 
