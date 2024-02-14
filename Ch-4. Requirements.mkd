@@ -44,4 +44,34 @@ Cada especificación de función debe tener los elementos discutidos en las sigu
 
 ### Descripción general(Overview)
 
+Este es su resumen ejecutivo. Un párrafo o como máximo dos de lo que se supone que debe hacer el programa.
 
+### Descargo de responsabilidad (Disclaimer)
+Siempre debe incluir una declaración desde el principio que diga: “Esta especificación aún no está terminada. Si cree que falta algo o que algo está mal, envíeme un correo electrónico”. En algún momento, su descargo de responsabilidad debería cambiar a algo como “Esta especificación es tan completa como lo será para esta versión. Si cree que falta algo o que algo está mal, envíe un correo electrónico al autor y lo consideraremos para la próxima versión”.
+
+### Nombre del Autor(Author’s Name)
+
+Alguien debe ser responsable de la especificación funcional. Ni un comité, ni el equipo de desarrollo, una sola persona. Suele ser el director de desarrollo o el director de proyectos, dependiendo de cómo su empresa configure los proyectos de desarrollo. 
+
+## Escenario de uso ttipico (Scenarios of Typical Usage)
+
+Escenarios de uso típico
+Estos son los requisitos reales. Una excelente manera de lograr que los clientes respondan a su lista de requisitos es presentarles varios escenarios de uso típico del programa como parte de la especificación. Esto tiene un par de ventajas:
+• Primero, si escribe los escenarios como si fueran historias de usuarios, es más probable que el cliente los lea.
+• En segundo lugar, es más probable que los clientes entiendan lo que estás haciendo y propongan ideas sobre cosas que te has pasado por alto o que has hecho mal. Esto siempre es bueno, porque cuantas más aportaciones de los clientes reciba al principio del proceso, más probabilidades tendrá de crear algo que ellos quieran.
+
+En muchas metodologías ágiles, incluido XP, las historias de usuarios suelen escribirse como escenarios. En XP, el cliente es parte del equipo del proyecto, por lo que obtiene comentarios constantes sobre historias de usuarios y compilaciones diarias de programas. En Scrum, no se requiere que el cliente forme parte del equipo del proyecto, pero se le recomienda encarecidamente que se mantenga en estrecho contacto con el equipo. También en Scrum, los sprints más cortos permiten al cliente ver versiones funcionales del producto con más frecuencia. En el Lenguaje Unificado de Modelado (UML, consulte www.uml.org), se utiliza una notación completa para crear casos de uso (otra palabra para escenarios). Pero como ya se mencionó, nada supera al lenguaje natural para describir escenarios de uso. 
+
+## Problemas abiertos(Open Issues)
+
+Cuando escriba por primera vez la especificación funcional, habrá una o dos cosas que no sepa. Esta bien. Simplemente colóquelos en la sección "Problemas abiertos". Luego, cada vez que te reúnas con el cliente, señala esta sección e intenta obtener respuestas. Algunas de estas preguntas pasarán a las secciones de requisitos y otras terminarán en la sección "No requisitos", una vez que obtenga esas respuestas. Sin embargo, al final del proyecto, esta sección debería estar vacía. Si no es así, entonces tienes problemas que te perseguirán.
+
+### Ideas de diseño y nuevas funciones (Design and New Feature Ideas)
+
+Si es como la mayoría de los desarrolladores, intentará diseñar y codificar el programa en su cabeza todo el tiempo que recopile y analice los requisitos. Eso es exactamente lo que hacen los desarrolladores. Los dos tipos de notas que suelen crear los desarrolladores y gerentes de proyectos son notas técnicas que contienen ideas de diseño o codificación para desarrolladores, y notas de marketing que contienen ideas de funciones para el personal de marketing y el cliente. 
+**Usar el backlog**
+
+### Una cosa más (one more thing)
+Una cosa más sobre la especificación funcional: no te obsesiones. Lo más probable es que haga un buen trabajo al seleccionar los requisitos y anotarlos en la especificación funcional, pero no será tan detallado como desea y no estará completo. No te preocupes. El único momento en que se completa una especificación funcional es cuando se envía la versión. No pierda tiempo intentando corregir cada detalle; No pierda tiempo tratando de extraer todos los requisitos de su cliente. Simplemente no sucederá. Establece un límite de tiempo, haz lo mejor que puedas y déjalo pasar.
+
+## Recopilación de requisitos en un proyecto ágil (Requirements Gathering in an Agile Project)
