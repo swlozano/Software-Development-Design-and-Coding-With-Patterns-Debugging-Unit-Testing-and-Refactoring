@@ -25,6 +25,7 @@ The filters must be independent components. You can join different filters in th
 The Model-View-Controller (MVC) architectural pattern is a way of breaking an application, or even just a piece of an application’s interface, into three parts: the model, the view, and the controller.
 
 Input ➤ Processing ➤ Output
+
 Controller ➤ Model ➤ View
 
 ![Screen Shot 2024-02-16 at 2 04 02 PM](https://github.com/swlozano/Software-Development-Design-and-Coding-With-Patterns-Debugging-Unit-Testing-and-Refactoring/assets/7098685/7ce7d55e-9a08-4a2c-9cb6-2b81e311be8a)
