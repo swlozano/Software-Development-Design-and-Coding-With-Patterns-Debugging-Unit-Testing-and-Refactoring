@@ -1,2 +1,37 @@
 # CHAPTER 5 
 # Software Architecture
+ Let’s looks at several different common architectural styles.
+## The Main Program—Subroutine Architectural Pattern
+
+You start with a big problem and then try to decompose the problem into several smaller, semi-independent problems or pieces of the original problem. 
+Once you have a problem divided into several pieces, you look at each piece individually and continue dividing, ignoring all the other pieces as you go.
+1. Program construction consists of a sequence of refinement steps. In each step
+a given task is broken up into a number of subtasks.
+2. The degree of modularity obtained in this way will determine the ease or difficulty with which a program can be adapted to changes or extensions of the purpose . . .
+3.  Each refinement implies a number of design decisions based upon a set of design criteria . . .
+
+Ejm
+![Screen Shot 2024-02-16 at 1 52 53 PM](https://github.com/swlozano/Software-Development-Design-and-Coding-With-Patterns-Debugging-Unit-Testing-and-Refactoring/assets/7098685/03d339a5-4aac-4f0a-abac-30c691dae9e2)
+
+## Pipe-and-Filter Architecture
+In a pipe-and-filter style architecture, the computational components are called filters and they act as transducers that take input, transform it according to one or more algorithms, and then output the result to a communications conduit. The input and outputs conduits are called pipes.
+
+![Screen Shot 2024-02-16 at 1 56 51 PM](https://github.com/swlozano/Software-Development-Design-and-Coding-With-Patterns-Debugging-Unit-Testing-and-Refactoring/assets/7098685/aa13c5e7-79be-43c0-b7f5-d5f39e696d3a)
+
+The filters must be independent components. You can join different filters in the set in different orders to get different results.
+
+## An Object-Oriented Architectural Pattern
+
+The Model-View-Controller (MVC) architectural pattern is a way of breaking an application, or even just a piece of an application’s interface, into three parts: the model, the view, and the controller.
+
+Input ➤ Processing ➤ Output
+Controller ➤ Model ➤ View
+
+![Screen Shot 2024-02-16 at 2 04 02 PM](https://github.com/swlozano/Software-Development-Design-and-Coding-With-Patterns-Debugging-Unit-Testing-and-Refactoring/assets/7098685/7ce7d55e-9a08-4a2c-9cb6-2b81e311be8a)
+
+- **The controller** interprets mouse and keyboard inputs from the user and maps these user actions into commands that are sent to the model and/or view to effect the appropriate change. The controller handles input.
+- **The model** manages one or more data elements, responds to queries about its state, and responds to instructions to change state. The model knows what the application is supposed to do and is the main computational structure of the architecture—it models the problem you’re trying to solve. The model knows the rules.
+- **The view or viewport** manages a rectangular area of the display and is responsible for presenting data to the user through a combination of graphics and text. The view doesn’t know anything about what the program is actually doing; all it does is take instructions from the controller and data from the model and display them. It communicates back to the model and controller to report status. The view handles the output.
+
+## The Client-Server Architectural Pattern
+
