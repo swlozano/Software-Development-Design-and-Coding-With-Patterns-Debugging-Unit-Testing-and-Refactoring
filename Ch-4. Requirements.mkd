@@ -144,3 +144,76 @@ Como se implicó anteriormente, las buenas historias de usuarios deben ser peque
 Las buenas historias deben ser testeables. Esto nos remite a la idea de trazabilidad basada en un plan. Una vez implementada, uno debería poder rastrear una característica a través de la implementación y el diseño hasta los requisitos originales. En ágil, esta práctica generalmente se implementa utilizando desarrollo basado en pruebas (TDD) y criterios de aceptación. El propietario del producto escribe los criterios de aceptación y los desarrolladores implementarán las pruebas unitarias que confirmarán que una tarea es correcta. Las pruebas de aceptación que utilizará el propietario del producto confirman que la historia del usuario está implementada correctamente. Esta suele ser la definición de Hecho en un entorno ágil.
 **Si se escribe una historia de usuario y el propietario del producto no está seguro o no tiene claro cómo escribir los criterios de aceptación, esto puede significar que los detalles de la historia no están claros y la conversación sobre la historia debe reiniciarse para aclarar cualquier confusión.**
 
+La característica Probable también es una forma para que el equipo de desarrollo incluya requisitos no funcionales (rendimiento, tiempo de respuesta, usabilidad, etc.) como elementos a probar.
+
+### Product Backlog en Desarrollo Ágil:
+
+Lista dinámica de tareas pendientes para crear el producto, compuesta inicialmente por historias de usuario acordadas entre el product owner y el equipo de desarrollo. Evoluciona constantemente con adiciones, eliminaciones y divisiones de tarjetas durante el proceso de desarrollo. El product owner decide la finalización y lanzamiento del producto, y las tarjetas restantes se reservan para futuros esfuerzos.
+
+## Tareas SMART en Desarrollo Ágil:
+
+Desglosar cada historia de usuario en tareas implementables, fácilmente estimables en esfuerzo y con un tiempo de desarrollo relativamente corto. Las tareas representan el trabajo necesario para implementar las historias de usuario.
+
+La descomposición de historias en tareas es responsabilidad del equipo de desarrollo, no del product owner. Durante la planificación, el equipo asigna estimaciones a las tareas hasta alcanzar el tiempo disponible en la siguiente iteración. En Scrum, las tareas pueden tener valores en puntos según su dificultad percibida. El equipo suma los puntos de las tareas prioritarias hasta alcanzar la velocidad promedio del equipo.
+
+Estas tareas se presentan al product owner, quien aprueba la lista o sugiere cambios ajustando las prioridades en el backlog. Una vez acordadas las historias y tareas, comienza el trabajo. **La identificación y descripción de tareas debe cumplir con los objetivos SMART (Específico, Medible, Alcanzable, Relevante y con un Tiempo Definido).**
+
+- **Specific (Especificas):**
+Deben poderce implementar.
+- **Measurable (Medibles)**
+Saber cuando todos lo requimientos de la tarea han sido completados.Ejm: Paso todos los test.
+- **Achievable (Alcanzable):**
+El desarrollador lo puede implementar en el tiempo de la iteración o del sprint.
+- **Relevant (Relevante):**
+Debería agregar valor a la iteración para el cliente.
+- **Time-Boxed (Caja de tiempo)**:
+Si la tarea es demasiado dificil para terminarla dentro del sprint deber ser divida en otras tareas.
+
+**Sprint/Iteration Backlog**
+En scrum solo los desarrolladores pueden agregar mas tareas dentro del sprint
+
+## Investigación de requisitos
+Existe una diferencia entre requerimiento, politicas e implementación.
+
+## Why Requirements Digging Is Hard(Por que la busqueda de requerimientos es dificil)
+
+### Problems of Scope(Problemas de alcance)
+Preguntar siempre por que es ncesario que esto sea parte del programa?
+
+### Problems of Understanding
+
+El cliente y el desarrollador hablan diferentes lenguajes. Ejm. De negocio y tecnicos. Para encarar esto es ncesario hacer al cliente parte del equipo de desarrollo. En algunos casos contratan uno de estos dos roles system engineers or technical marketers que tienen la vision de los dos mundos.
+
+### Problems of Volatility
+Las cosas cambian y no se pueden controlar. Lo que se puede hacer es manejar el cambio. Ejm. Responsbilizar al cliente. Si agregamos esto, nos tardariamos seis semanas mas en terminar lo otro, aun lo quieres.
+
+### Non-Technical Problems 
+Se refiere a cosas que no estan dentro del control de los desarrolladores. Ejm la vision opuesta de los managers sobre un requerimiento. El mejor consejo para problemas no técnicos es huir rápidamente. Deje que su vicepresidente se encargue de ello; por eso les pagan mucho dinero.
+
+## Analyzing the Requirements
+
+Necesitas asegurarte que los requerimientos escritos son los indicados.
+Analisis de requerimientos tiene tres partes:
+
+- Categorizar y organizar en areas relacionadas.
+- Priorizar: Cuales deben ser alzanzados primero.
+- Examinar haciendo las siguietes preguntas.
+  1. Cada requisito es concistente con el objetivo general del proyecto.?
+  2. Este requesito es necesario? Se puede eliminar sin afectar la funcionalidad principal del programa?
+  3. Uno de los mas importantes. Es este requerimiento testeable? Escribir test primero, luego el codigo.
+  4. Es un requsito factible dentro de los terminos tecnicos? Ejm usar librerias de windows dentro de mac.
+  5. Los requsitos no deben ser ambiguos. Esta el requisito planteado con precision.?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
