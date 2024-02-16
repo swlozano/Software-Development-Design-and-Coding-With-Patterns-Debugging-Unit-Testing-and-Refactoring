@@ -36,3 +36,9 @@ Controller ➤ Model ➤ View
 
 ## The Client-Server Architectural Pattern
 
+El patrón arquitectónico cliente-servidor divide un programa en dos partes que generalmente se ejecutan en computadoras separadas. El servidor realiza la mayor parte del trabajo y proporciona servicios a los clientes a través de una red de alta velocidad. Los clientes manejan la entrada del usuario, muestran la salida y se comunican con el servidor. En el modelo web, el navegador es el cliente, interactuando con un servidor que ofrece servicios, como presentar páginas web. Aunque clientes y servidores pueden estar en la misma computadora, ejemplos incluyen programas como los spoolers de impresión y el sistema gráfico X Window, que utilizan la arquitectura cliente-servidor para realizar diversas funciones, incluso en la misma máquina.
+
+## The Layered Approach
+El enfoque arquitectónico por capas sugiere que los programas pueden estructurarse como una serie de capas, similar a estratos geológicos, con interfaces bien definidas entre ellas. Esto aísla cada capa de las superiores e inferiores, permitiendo cambiar internamente cualquier capa sin afectar las demás, siempre y cuando no implique cambios en la interfaz. En este enfoque, las interfaces son fundamentales. Ejemplos clásicos incluyen sistemas operativos y protocolos de comunicación, donde la arquitectura en capas centraliza el control de los recursos hardware y protege a los usuarios.
+![Screen Shot 2024-02-16 at 6 29 42 PM](https://github.com/swlozano/Software-Development-Design-and-Coding-With-Patterns-Debugging-Unit-Testing-and-Refactoring/assets/7098685/9673628d-37d8-42e0-8e2f-a5a19048730e)
+
