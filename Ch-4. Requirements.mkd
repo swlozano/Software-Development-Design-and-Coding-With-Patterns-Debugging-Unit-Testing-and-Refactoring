@@ -115,3 +115,32 @@ Aunque la tarjeta puede variar en su presentación, se destaca que suele ser un 
 
 **Colaboración Continua y Aclaración de Detalles:**
 La tarjeta no solo representa la historia de usuario, sino que también fomenta la colaboración. Los interesados pueden escribir, agregar estimaciones y formular preguntas, permitiendo la evolución y clarificación de los requisitos a lo largo del tiempo.
+
+### Conversación
+La conversación en un proyecto ágil es un diálogo sustancial que involucra a todos los stakeholders importantes del proyecto, como el product owner o usuario, el equipo de desarrollo, los testers, profesionales de marketing y posiblemente otros participantes. Se trata de una discusión detallada acerca de lo que el product owner realmente desea lograr con la historia de usuario.
+
+### Confirmación
+El usuario o propietario del producto proporciona esta información en forma de criterios de aceptación de la historia. Los criterios de aceptación generalmente están escritos en el reverso de la tarjeta como una breve lista con viñetas. Estos criterios terminarán siendo pruebas de aceptación que el propietario del producto utilizará para confirmar que la implementación de la historia es aceptable para el usuario. La mejor manera de crear pruebas de aceptación es que el propietario del producto genere ejemplos de la historia en uso y luego que el equipo de desarrollo automatice los ejemplos. De esa manera, el propietario del producto puede ejecutar las pruebas de aceptación de la función entregada y confirmar si la implementación funciona o no.
+
+## INVEST in Stories
+ Bill Wake, in a classic blog post, laid out the characteristics of a good user story using the acronym INVEST.
+
+### Independiente
+La idea aquí es que sus historias de usuario sean independientes entre sí. De esa manera, una única historia de usuario (que, según el proceso ágil que esté utilizando, puede requerir varias iteraciones para implementarse por completo) se puede programar e implementar por separado de cualquier otra historia de usuario. Wake da el ejemplo de un pastel de varias capas. Si tomas una porción del pastel, puedes comer (implementar) solo esa porción, independientemente de cualquier otra. Puede que esto no sea del todo posible; piense en cosas como el software de radio de un teléfono móvil. Para probar completamente parte de la interfaz de usuario incorporada en una historia de usuario, es posible que primero deba tener todo el software de radio funcionando. Veremos esta misma idea más adelante como un acoplamiento flexible en el diseño orientado a objetos.
+
+### Negociable
+Una buena historia deja espacio para que las partes involucradas negocien los detalles de su implementación; proporciona la esencia del requisito. La historia no es tan específica como para parecer un contrato. Más bien, proporciona al desarrollador un objetivo y permite al propietario y al desarrollador crear una implementación interesante y viable.
+
+### Valioso
+Una buena historia de usuario debe ser valiosa para el cliente. Debe describir una característica o un servicio que el cliente desea. Debido a que las historias de usuarios se programarán e implementarán en una iteración de desarrollo, deben agregar valor al producto cuando se complete la iteración. Además, si el equipo decide que una historia de usuario es demasiado grande y debe dividirse en dos o más historias, cada una de ellas debe aportar valor al cliente. Esta idea brinda orientación al equipo de desarrollo sobre cómo dividir historias, basándose en el valor para el cliente, no en la tecnología. 
+
+### Estimable
+Las historias de usuarios deben poder estimarse. La estimación es fundamental para el propietario del producto para que pueda asignar una prioridad relativa a la historia. Esta característica también permite al equipo centrarse en el tamaño de la historia. Las historias que son demasiado grandes no se pueden estimar realmente y, por lo tanto, deberían ser candidatas a dividirse. La estimación es parte de la negociación en la conversación. Significa observar tanto el tamaño de la historia como el posible esfuerzo involucrado en implementarla. Si un equipo tiene problemas para estimar el tamaño o el esfuerzo de una historia en particular, es posible que la historia sea demasiado grande y deba dividirse. La estimación es también el primer paso para descomponer la historia en tareas implementables.
+
+### Small
+Como se implicó anteriormente, las buenas historias de usuarios deben ser pequeñas. Idealmente, una historia de usuario debería poder implementarse en un solo sprint o iteración. Eso permitirá al equipo de desarrollo descomponer la historia en una serie de pequeñas tareas, idealmente de ocho horas-persona o menos de esfuerzo. También habla de la característica Valor porque si es pequeña, la historia agregará valor para el cliente al final de una sola iteración. Una forma de gestionar el tamaño de las historias es no preocuparse por ellos si la historia tiene baja prioridad. A medida que la historia avance en el trabajo pendiente del producto, se volverá más importante y, en algún momento, será lo suficientemente importante como para hacer una estimación detallada de su esfuerzo. Si es lo suficientemente grande (más largo que una sola iteración), debería considerar dividirlo en historias más pequeñas.
+
+### Teateable
+Las buenas historias deben ser testeables. Esto nos remite a la idea de trazabilidad basada en un plan. Una vez implementada, uno debería poder rastrear una característica a través de la implementación y el diseño hasta los requisitos originales. En ágil, esta práctica generalmente se implementa utilizando desarrollo basado en pruebas (TDD) y criterios de aceptación. El propietario del producto escribe los criterios de aceptación y los desarrolladores implementarán las pruebas unitarias que confirmarán que una tarea es correcta. Las pruebas de aceptación que utilizará el propietario del producto confirman que la historia del usuario está implementada correctamente. Esta suele ser la definición de Hecho en un entorno ágil.
+**Si se escribe una historia de usuario y el propietario del producto no está seguro o no tiene claro cómo escribir los criterios de aceptación, esto puede significar que los detalles de la historia no están claros y la conversación sobre la historia debe reiniciarse para aclarar cualquier confusión.**
+
