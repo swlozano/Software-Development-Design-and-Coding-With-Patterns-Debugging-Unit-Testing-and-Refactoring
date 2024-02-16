@@ -75,3 +75,20 @@ Si es como la mayoría de los desarrolladores, intentará diseñar y codificar e
 Una cosa más sobre la especificación funcional: no te obsesiones. Lo más probable es que haga un buen trabajo al seleccionar los requisitos y anotarlos en la especificación funcional, pero no será tan detallado como desea y no estará completo. No te preocupes. El único momento en que se completa una especificación funcional es cuando se envía la versión. No pierda tiempo intentando corregir cada detalle; No pierda tiempo tratando de extraer todos los requisitos de su cliente. Simplemente no sucederá. Establece un límite de tiempo, haz lo mejor que puedas y déjalo pasar.
 
 ## Recopilación de requisitos en un proyecto ágil (Requirements Gathering in an Agile Project)
+
+**No hay especificación funcional fija:**
+En proyectos ágiles, no se crea una especificación funcional detallada desde el principio. Se reconoce que los requisitos cambiarán, y se acepta la posibilidad de ajustes continuos a medida que progresa el proyecto.
+
+**Aceptación del cambio:**
+La mentalidad ágil implica aceptar y adaptarse a los cambios en los requisitos a lo largo del desarrollo del proyecto. Los equipos ágiles postergan la toma de decisiones sobre requisitos y diseño tanto como sea posible.
+
+**Cliente como parte integral del equipo:**
+En entornos ágiles, el cliente forma parte integral del equipo de desarrollo. Esto permite obtener retroalimentación inmediata sobre las implementaciones de funciones y actualizaciones oportunas sobre los requisitos del cliente.
+
+**Historias de usuario como elemento clave:**
+La historia del usuario es fundamental en la recopilación de requisitos ágiles. Se describe una característica o escenario que el cliente desea ejecutar, siguiendo la estructura: "Como <rol>, quiero realizar <acción>, de modo que <razón/beneficio>". Esto proporciona información sobre quién, qué y por qué del requisito.
+
+**Enfoque en el quién, qué y por qué:**
+Al expresar las historias de usuario, se aborda el "quién" (rol del usuario), el "qué" (acción que se desea realizar) y el "por qué" (razón o beneficio detrás de la acción). Esta estructura ayuda a comprender completamente el contexto del requisito.
+
+En resumen, la recopilación de requisitos en proyectos ágiles se centra en la flexibilidad, la colaboración continua con el cliente y la utilización de historias de usuario para comprender y abordar las necesidades del usuario de manera efectiva.
