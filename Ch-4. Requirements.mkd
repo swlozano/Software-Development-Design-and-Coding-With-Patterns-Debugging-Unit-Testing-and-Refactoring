@@ -92,3 +92,26 @@ La historia del usuario es fundamental en la recopilación de requisitos ágiles
 Al expresar las historias de usuario, se aborda el "quién" (rol del usuario), el "qué" (acción que se desea realizar) y el "por qué" (razón o beneficio detrás de la acción). Esta estructura ayuda a comprender completamente el contexto del requisito.
 
 En resumen, la recopilación de requisitos en proyectos ágiles se centra en la flexibilidad, la colaboración continua con el cliente y la utilización de historias de usuario para comprender y abordar las necesidades del usuario de manera efectiva.
+
+### Las tres C
+Una historia de usuario tiene tres componentes fundamentales. 
+- la card
+- la conversación
+- la confirmación.
+
+### La card
+
+**Soporte Físico para Historias de Usuario:**
+Todas las historias de usuario se plasman en tarjetas, que pueden ser notas Post-It, tarjetas índice o pedazos de papel más grandes, destacando la preferencia por un formato físico.
+
+**Invitación a Conversación Colaborativa:**
+La tarjeta, aunque contiene la estructura "Como <rol> quiero <acción> para que <beneficio/resultado>," actúa como una invitación a discutir colaborativamente el significado real de la historia y las verdaderas necesidades del usuario.
+
+**Detalle Limitado en la Tarjeta:**
+La tarjeta es esencialmente un esbozo de la historia y no proporciona muchos detalles. Sirve como un marcador de posición para el requisito real que se definirá en etapas posteriores del proyecto.
+
+**Formato Físico Preferido:**
+Aunque la tarjeta puede variar en su presentación, se destaca que suele ser un objeto físico. Esto enfatiza la tangibilidad como parte integral del proceso.
+
+**Colaboración Continua y Aclaración de Detalles:**
+La tarjeta no solo representa la historia de usuario, sino que también fomenta la colaboración. Los interesados pueden escribir, agregar estimaciones y formular preguntas, permitiendo la evolución y clarificación de los requisitos a lo largo del tiempo.
