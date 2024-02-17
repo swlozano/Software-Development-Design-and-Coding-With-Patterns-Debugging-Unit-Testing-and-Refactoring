@@ -1,3 +1,21 @@
 # CHAPTER 6
 # Design Principles
 
+Una forma de ver los problemas de software es con un modelo que divide los problemas en dos capas diferentes:
+• Los problemas “perversos” se encuentran en la capa superior: son problemas que normalmente provienen de dominios ajenos a la informática (como la biología, los negocios, la meteorología, la sociología, las ciencias políticas, etc.).
+
+• Los problemas “mansos” caen en la capa inferior: estos problemas tienden a trascender otros dominios de problemas y tienden a estar mejor definidos y son pequeños. Ordenar y buscar son grandes ejemplos de problemas mansos. Están claramente definidos y sabes cuándo tienes una solución. 
+
+Conklin, Rittel y Webber dicen que los estudios cognitivos tradicionales indican que cuando se enfrentan a un problema grande y complicado (perverso), la mayoría de las personas seguirán un enfoque de resolución de problemas lineal, trabajando de arriba hacia abajo desde el problema hasta la solución. Esto es equivalente al modelo de cascada tradicional descrito en el Capítulo 2.4. La Figura 6-1 muestra este enfoque lineal.
+
+![Screen Shot 2024-02-17 at 12 22 04 AM](https://github.com/swlozano/Software-Development-Design-and-Coding-With-Patterns-Debugging-Unit-Testing-and-Refactoring/assets/7098685/320a707c-f2df-41ca-9344-8a72a5d25dcd)
+
+En lugar de este enfoque lineal en cascada, los verdaderos solucionadores de problemas tienden a utilizar un enfoque que oscila entre el análisis de requisitos y el modelado de soluciones, y viceversa, hasta que la solución del problema sea lo suficientemente buena. Conklin llama a esto un enfoque impulsado por oportunidades u oportunista porque los diseñadores buscan cualquier oportunidad para avanzar hacia la solución.5 En lugar de la tradicional imagen en cascada de la Figura 6-1, el enfoque impulsado por oportunidades se parece a la Figura 6-2.
+
+![Screen Shot 2024-02-17 at 12 23 17 AM](https://github.com/swlozano/Software-Development-Design-and-Coding-With-Patterns-Debugging-Unit-Testing-and-Refactoring/assets/7098685/4e5f5194-7332-45a1-ae1d-bd485dde42e4)
+
+Conklin también proporciona una lista de características de problemas sencillos, aquellos para los cuales se puede encontrar una solución de manera fácil y confiable. “Un problema manso:
+
+
+
+
