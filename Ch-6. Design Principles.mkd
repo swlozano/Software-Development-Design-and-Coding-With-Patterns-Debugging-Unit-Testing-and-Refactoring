@@ -81,6 +81,47 @@ Eso es lo que son los patrones de diseño: son descripciones de cosas que ya has
 
 ## Designers and Creativity(Diseñadores y creatividad)
 
+Bill Curtis, en un estudio empírico de diseñadores de software realizado en 1987, ideó un proceso que parece ser el que siguieron la mayoría de los diseñadores:
+
+1. Comprenda el problema.
+2. Descomponer el problema en metas y objetos.
+3. Seleccionar y redactar planes para resolver el problema.
+4. Implementar los planes.
+5. Reflexionar sobre el producto y proceso de diseño.
+
+Curtis, sin embargo, luego profundizó en el paso 3 de su lista, "seleccionar y redactar planos", y descubrió que sus diseñadores utilizaron los siguientes pasos:
+
+1. Construir un modelo mental de una solución propuesta.
+2. Ejecute mentalmente el modelo para ver si resuelve el problema: cree datos y simule el modelo en su cabeza.
+3. Si lo que obtiene no es correcto, cambie el modelo para eliminar los errores y vuelva al paso 2 para simular nuevamente.
+4. Cuando su entrada de muestra produzca la salida correcta, seleccione algunos valores de entrada más y regrese y realice los pasos 2 y 3 nuevamente.
+5. Cuando hayas hecho esto suficientes veces (lo sabrás porque tienes experiencia), tendrás un buen modelo y podrás parar.
+
+John Nestor, en un informe para el Instituto de Ingeniería de Software, elaboró una lista de algunas características comunes de los grandes diseñadores.
+Grandes diseñadores
+
+• tener un gran conjunto de patrones estándar.
+• han experimentado proyectos fallidos.
+• tener dominio de las herramientas de desarrollo.
+• tener un impulso hacia la simplicidad.
+• puede anticipar el cambio.
+• puede ver las cosas desde la perspectiva del usuario.
+• puede afrontar la complejidad.
+
+## Conclusión
+Entonces, al final del capítulo, ¿qué hemos aprendido sobre el diseño de software?
+• **El diseño es ad hoc, heurístico y confuso:** fundamentalmente utiliza un proceso heurístico y de prueba y error, y ese proceso es el más natural para el diseño de software. Hay una serie de heurísticas bien conocidas que cualquier buen diseñador debería emplear.
+
+• **El diseño depende de la comprensión de los problemas y soluciones de diseño previos:** los diseñadores necesitan cierto conocimiento del dominio del problema. Más importante aún, necesitan conocimientos de diseño y patrones de buenos diseños. Necesitan tener una mochila con estos patrones de diseño que puedan utilizar para abordar nuevos problemas. Las soluciones están probadas y son verdaderas. Los problemas son nuevos pero contienen elementos de problemas que ya han sido resueltos. Los patrones son plantillas maleables que se pueden aplicar a aquellos elementos del nuevo problema que coincidan con los requisitos del patrón.
+
+• **El diseño es iterativo:** los requisitos cambian y su diseño también debe hacerlo. Incluso si tiene un conjunto estable de requisitos, su comprensión de los requisitos cambia a medida que avanza en la actividad de diseño, por lo que regresará y cambiará el diseño para reflejar esta comprensión mejor y más profunda. El proceso iterativo aclara y simplifica su diseño en cada paso.
+
+• **El diseño es una actividad cognitiva:** en este momento no estás escribiendo código, por lo que no necesitas una máquina. Tu cabeza y tal vez un lápiz y papel o una pizarra es todo lo que necesitas para diseñar. Como dice Dijkstra: “No debemos olvidar que no es asunto nuestro hacer programas; Es asunto nuestro diseñar clases de computaciones que muestren el comportamiento deseado”.
+
+• **El diseño es oportunista.** Glass resume su discusión sobre el diseño así: “El proceso de diseño imperturbable es oportunista; es decir, en lugar de proceder en un proceso ordenado, los buenos diseñadores siguen un patrón errático dictado por sus mentes, persiguiendo oportunidades en lugar de una progresión ordenada”.
+
+A designer can mull over complicated designs for months. Then suddenly the simple, elegant, beautiful solution occurs to him. When it happens to you, it feels as if God is talking! And maybe He is.
+—Leo Frankowski (in The Cross-Time Engineer)
 
 
 
