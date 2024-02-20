@@ -56,7 +56,7 @@ Independientemente del tamaño de su proyecto o del proceso que utilice para rea
 
 • **Portabilidad:** aunque no ocupa un lugar destacado en la lista, tener en cuenta que es posible que su software deba trasladarse a otra plataforma (o dos o tres) es una característica deseable. Hay muchos problemas relacionados con la portabilidad de software, incluidos problemas del sistema operativo, la arquitectura del hardware y los problemas de la interfaz de usuario. Esto es particularmente cierto para las aplicaciones web.
 
-**Diseño Heuristico**
+## Diseño Heuristico
 Hablando de heurísticas, aquí hay una breve lista de heurísticas buenas y probadas en el tiempo. 
 
 • **Encontrar objetos del mundo real para modelar:**  
