@@ -14,7 +14,78 @@ En lugar de este enfoque lineal en cascada, los verdaderos solucionadores de pro
 
 ![Screen Shot 2024-02-17 at 12 23 17 AM](https://github.com/swlozano/Software-Development-Design-and-Coding-With-Patterns-Debugging-Unit-Testing-and-Refactoring/assets/7098685/4e5f5194-7332-45a1-ae1d-bd485dde42e4)
 
-Conklin también proporciona una lista de características de problemas sencillos, aquellos para los cuales se puede encontrar una solución de manera fácil y confiable. “Un problema manso:
+Conklin también proporciona una lista de características de problemas sencillos, aquellos para los cuales se puede encontrar una solución de manera fácil y confiable. “Un problema manso es aquel con las siguientes caracterisiticas":
+
+1. tiene un planteamiento del problema bien definido y estable;
+2. tiene un punto de parada definido, es decir, cuando se alcanza la solución;
+3. tiene una solución que puede evaluarse objetivamente como correcta o incorrecta;
+4. pertenece a una clase de problemas similares que se resuelven todos de la misma manera;
+5. tiene soluciones que pueden probarse y abandonarse fácilmente; y
+6. viene con un conjunto limitado de soluciones alternativas”.
+
+Un excelente ejemplo de un problema sencillo es ordenar una lista de valores de datos:
+• El problema se plantea fácil y claramente: clasifique esta lista en orden ascendente utilizando esta función para comparar elementos de datos.
+• La clasificación tiene un punto final definido: la lista está ordenada.
+• El resultado de una clasificación se puede evaluar objetivamente (la lista está ordenada correctamente o
+no lo es).
+• Ordenar pertenece a una clase de problemas similares que se resuelven todos de la misma manera. Ordenar números enteros es similar a ordenar cadenas, es similar a ordenar registros de bases de datos usando una clave, etc.
+• La clasificación tiene soluciones que pueden probarse y abandonarse fácilmente.
+• Finalmente, la clasificación tiene un conjunto limitado de soluciones alternativas; ordenar por comparación tiene un
+conjunto de algoritmos conocidos y un límite inferior teórico.
+
+## The Design Process
+El proceso de diseño es desordenado. 
+El truco aquí consiste en crear una arquitectura de software (consulte el Capítulo 5) que sea susceptible de cambios con un efecto limitado en el diseño y el código posteriores.
+
+## Características de diseño deseables (cosas que su diseño debe favorecer)
+Independientemente del tamaño de su proyecto o del proceso que utilice para realizar su diseño, existe una serie de características deseables que todo diseño de software debe tener. Estos son los principios que debe seguir al considerar su diseño. Su diseño no necesariamente tiene que exhibir todas estas características, pero tener la mayoría de ellas ciertamente hará que su software sea más fácil de escribir, comprender y usar:
+
+• **Adecuación del propósito:** Su diseño debe funcionar, y debe funcionar correctamente en el sentido de que debe satisfacer los requisitos que le han dado dentro de las limitaciones de la plataforma en la que se ejecutará su software. No agregue nuevos requisitos sobre la marcha: el cliente lo hará por usted.
+
+• **Separación de preocupaciones:** estrechamente relacionado con la modularidad, este principio dice que se deben separar limpiamente las piezas funcionales de su diseño para facilitar el mantenimiento y la simplicidad. La modularidad es buena.
+
+• **Simplicidad:** mantenga su diseño lo más simple posible. Esto permitirá que otros entiendan lo que estás haciendo. Si encuentras un lugar que pueda simplificarse, ¡hazlo! Si simplificar su diseño significa agregar más módulos o clases a su diseño, está bien. La simplicidad también se aplica a las interfaces entre módulos o clases. Las interfaces simples permiten que otros vean los datos y controlen el flujo en su diseño. En las metodologías ágiles, esta idea de simplicidad se mantiene frente a usted todo el tiempo. La mayoría de las técnicas ágiles tienen una regla que dice que si estás trabajando en parte de un programa y tienes la oportunidad de simplificarlo (llamado refactorización en lenguaje ágil), hazlo en ese momento. Mantenga su diseño y su código lo más simples posible en todo momento.
+
+• **Facilidad de mantenimiento:** un diseño simple y comprensible se puede cambiar. El primer tipo de cambio que encontrará es corregir errores. Los errores ocurren en todas las fases del proceso de desarrollo: requisitos, análisis, diseño, codificación y pruebas. Cuanto más coherente y fácil de entender sea su diseño, más fácil será aislar y corregir errores.
+
+• **Acoplamiento flexible:** cuando separa su diseño en módulos (o, en el diseño orientado a objetos, en clases), el grado en que las clases dependen unas de otras se denomina acoplamiento. Los módulos estrechamente acoplados pueden compartir datos o procedimientos. Esto significa que es mucho más probable que un cambio en un módulo conduzca a un cambio requerido en el otro módulo. Esto aumenta la carga de mantenimiento y hace que sea más probable que los módulos contengan errores. **Los módulos débilmente acoplados, por el contrario, están conectados únicamente por sus interfaces. Cualquier dato que ambos necesiten debe pasarse entre procedimientos o métodos a través de una interfaz.** Los módulos débilmente acoplados ocultan los detalles de cómo realizan operaciones de otros módulos, compartiendo solo sus interfaces. Esto alivia la carga de mantenimiento porque un cambio en la forma en que se implementa una clase probablemente no afectará el funcionamiento de otra clase siempre que la interfaz sea invariante. Por lo tanto, los cambios son aislados y es mucho menos probable que los errores se propaguen.
+
+• **Alta cohesión:** El complemento del acoplamiento flexible es la alta cohesión. La cohesión dentro de un módulo es el grado en que el módulo es autónomo con respecto tanto a los datos que contiene como a las operaciones que actúan sobre los datos. Una clase que tiene alta cohesión tiene prácticamente todos los datos que necesita definidos dentro de la plantilla de clase, y todas las operaciones permitidas con los datos también se definen dentro de la clase. Entonces, Cualquier objeto creado a partir de la plantilla de clase es muy independiente y simplemente se comunica con otros objetos a través de su interfaz publicada.
+
+• **Extensibilidad:** Una consecuencia de la simplicidad y el débil acoplamiento es la capacidad de agregar nuevas características al diseño fácilmente. Esto es extensibilidad. Una de las características de los problemas de software perversos es que nunca terminan realmente. Entonces, después de cada lanzamiento de un producto, lo siguiente que sucede es que el cliente solicita nuevas funciones. Cuanto más fácil sea agregar nuevas funciones, más limpio será su diseño.
+
+• **Portabilidad:** aunque no ocupa un lugar destacado en la lista, tener en cuenta que es posible que su software deba trasladarse a otra plataforma (o dos o tres) es una característica deseable. Hay muchos problemas relacionados con la portabilidad de software, incluidos problemas del sistema operativo, la arquitectura del hardware y los problemas de la interfaz de usuario. Esto es particularmente cierto para las aplicaciones web.
+
+**Diseño Heuristico**
+Hablando de heurísticas, aquí hay una breve lista de heurísticas buenas y probadas en el tiempo. 
+
+• **Encontrar objetos del mundo real para modelar:**  
+Se trata de qué tan lejos está su diseño de un objeto del mundo real. La heurística aquí es para intentar encontrar objetos del mundo real que se acerquen a las cosas que desea modelar en su programa. Tener en cuenta el objeto del mundo real al diseñar su programa ayuda a mantener su diseño más cerca del problema. El consejo de Fairley es minimizar la distancia intelectual entre el objeto del mundo real y su modelo del mismo.
+
+• **La abstracción es clave:** ya sea que esté haciendo un diseño orientado a objetos y esté creando interfaces y clases abstractas, o esté haciendo un diseño en capas más tradicional, desea utilizar la abstracción. La abstracción significa ser vago. Pospones lo que necesitas hacer empujándolo hacia arriba en la jerarquía de diseño (más abstracción) o empujándolo más hacia abajo (más detalles). La abstracción es un elemento clave para gestionar la complejidad de un gran problema. Al abstraer los detalles se puede ver el núcleo del problema real.
+
+• **Ocultar información es tu amigo:** Ocultar información es el concepto de que usted aísla información (tanto datos como comportamiento) en su programa para poder aislar errores y cambios; Además, solo permite el acceso a la información a través de una interfaz bien definida. Una parte fundamental del diseño orientado a objetos es la encapsulación, concepto que deriva del ocultamiento de información. Ocultas los detalles de una clase y solo permites la comunicación y modificación de datos a través de una interfaz pública. Esto significa que su implementación puede cambiar, pero mientras la interfaz sea consistente y constante, no es necesario cambiar nada más en su programa.
+
+• **Mantenga su diseño modular:** Dividir su diseño en partes semiindependientes tiene muchas ventajas. Mantiene el diseño manejable en tu cabeza; puedes pensar en una parte a la vez y dejar las demás como cajas negras. Aprovecha la ocultación y encapsulación de información. Aísla los cambios. Ayuda con la extensibilidad y la mantenibilidad. La modularidad es algo bueno. Hazlo.
+
+• **Identifique las partes de su diseño que probablemente cambiarán:** si asume que habrá cambios en sus requisitos, entonces probablemente también habrá cambios en su diseño. **Si identifica aquellas áreas de su diseño que probablemente cambiarán, puede separarlas, mitigando así el impacto de cualquier cambio que necesite realizar.** ¿Qué cosas es probable que cambien? Bueno, depende de tu aplicación, ¿no? Las reglas comerciales pueden cambiar (piense en las reglas fiscales o las prácticas contables), **las interfaces de usuario pueden cambiar, el hardware puede cambiar, etc. El punto aquí es anticipar el cambio y dividir su diseño para que queden contenidos los cambios necesarios.**
+
+• **Utilice acoplamiento flexible, interfaces y clases abstractas:** junto con la modularidad, la ocultación de información y los cambios, el uso de acoplamiento flexible hará que su diseño sea más fácil de entender y cambiar a medida que pasa el tiempo. El acoplamiento flojo dice que debes minimizar las dependencias de una clase (o módulo) de otra. Esto es para que un cambio en un módulo no cause cambios en otros módulos. Si la implementación de un módulo está oculta y solo la interfaz está expuesta, puede intercambiar implementaciones siempre que mantenga la interfaz constante. Por lo tanto, se implementa un acoplamiento flexible utilizando interfaces bien definidas entre módulos y, en un diseño orientado a objetos, utilizando clases e interfaces abstractas para conectar clases.
+
+• **Utilice su mochila llena de patrones de diseño comunes:** 
+Eso es lo que son los patrones de diseño: son descripciones de cosas que ya has hecho y que puedes aplicar a un nuevo problema.
+
+• **Adherirse al principio de un lugar correcto:** Su diseño debe cumplir con el Principio de un lugar correcto; la depuración y el mantenimiento serán mucho más fáciles.
+
+• **Usar diagramas como lenguaje de diseño:** soy un aprendiz visual. Para mí una imagen realmente vale más que mil palabras. Mientras diseño y codifico, dibujo constantemente diagramas para poder visualizar cómo se conectará mi programa, qué clases o módulos se comunicarán entre sí, qué datos dependen de qué función, adónde van los valores de retorno. , cuál es la secuencia de eventos. Este tipo de visualización puede asentar el diseño en su cabeza y puede señalar errores o posibles complicaciones en el diseño.
+
+## Designers and Creativity(Diseñadores y creatividad)
+
+
+
+
+
+
 
 
 
