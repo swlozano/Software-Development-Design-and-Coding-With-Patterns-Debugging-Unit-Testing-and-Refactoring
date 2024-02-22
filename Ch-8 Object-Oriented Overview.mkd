@@ -1,2 +1,21 @@
 # CHAPTER 8
 ## Object-Oriented Overview
+
+En primer lugar, los objetos son cosas. **Tienen una identidad (un nombre), un estado (un conjunto de atributos que describe los datos actuales almacenados dentro del objeto) y un conjunto definido de comportamientos que operan en ese estado**. Una pila es un objeto, al igual que un automóvil, una cuenta bancaria, una ventana o un botón en una interfaz gráfica de usuario. En un programa orientado a objetos, un conjunto de objetos cooperantes se pasan mensajes entre sí. Los mensajes solicitan a los objetos de destino que invoquen métodos que realicen operaciones con sus datos (cambiando así el estado del objeto) o que informen sobre el estado actual del objeto. Al final se hace el trabajo. Los objetos utilizan encapsulación y ocultación de información (recuerde, son diferentes) para aislar datos y operaciones de otros objetos en el programa. Las áreas de datos compartidos (normalmente) se eliminan. Los objetos son miembros de clases que definen tipos de atributos y operaciones.
+
+Las clases son plantillas para objetos. Las clases también pueden considerarse como fábricas que generan objetos.
+
+La herencia tiene una serie de ventajas. Es un mecanismo de abstracción que puede usarse para clasificar entidades. Es un mecanismo de reutilización tanto a nivel de diseño como de programación. 
+también existen problemas con la herencia. Crea clases de objetos que no son independientes; Las subclases no se pueden entender sin hacer referencia a sus superclases. La herencia introduce complejidad y esto no es deseable, especialmente en sistemas críticos. La herencia también suele permitir la sobrecarga de operadores (métodos en Java), que pueden ser buenos (polimorfismo) o malos (detección de métodos útiles en la superclase).
+
+## An Object-Oriented Analysis and Design Process
+
+El análisis orientado a objetos (OOA), el diseño (OOD) y la programación (OOP) están relacionados pero son distintos. OOA se ocupa del desarrollo de un modelo de objetos del dominio de aplicación.
+Entonces, por ejemplo, tomas el enunciado del problema, generas un conjunto de características y (posiblemente) casos de uso, identificas los objetos y algunos de los métodos dentro de esos objetos que necesitarás para satisfacer el caso de uso, y colocas juntos una arquitectura de cómo se unirá la solución. Eso es análisis orientado a objetos.
+
+OOD se ocupa del desarrollo de un modelo de sistema orientado a objetos para satisfacer los requisitos. Tomas los objetos generados a partir de tu OOA, determinas si usar herencia, agregación, composición, clases abstractas, interfaces, etc., para crear un modelo coherente y eficiente, dibujas los diagramas de clases, desarrollas los detalles de lo que es cada atributo y qué hace cada método, y describe las interfaces. Ese es el diseño.
+
+OOA le permite tomar un modelo de problema y reformularlo en términos de objetos y clases, y OOD le permite tomar sus requisitos analizados y conectar los puntos entre los objetos que ha propuesto y completar los detalles con respecto a los atributos del objeto. y métodos. ¿Pero cómo se hace realmente todo esto?
+
+Well, here is a proposed process from that starts to fill in some of the details.5 We’ll figure out the rest as we go along:
+
